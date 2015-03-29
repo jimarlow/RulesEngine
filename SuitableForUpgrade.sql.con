@@ -1,0 +1,5 @@
+p|passengerIsEconomy|select if(((select p.class from airlines.passengers p where p.id = ? ) = 'economy'), 1, 0);      
+p|passengerIsGoldCardHolder|select if(((select p.card_type from airlines.passengers p where p.id = ? ) = 'gold'), 1, 0);
+p|passengerIsSilverCardHolder|select if(((select p.card_type from airlines.passengers p where p.id = ? ) = 'silver'), 1, 0);
+v|passengerCarryOnBaggageWeight|10.0
+v|passengerCarryOnBaggageAllowance|15.0        

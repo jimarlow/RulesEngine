@@ -1,0 +1,9 @@
+passengerIsEconomy IS None      
+passengerIsGoldCardHolder IS None
+passengerIsSilverCardHolder IS None 
+OR
+AND
+passengerCarryOnBaggageAllowance EQUALS None       
+passengerCarryOnBaggageWeight EQUALS None
+LESSTHANOREQUALTO       
+AND
